@@ -15,7 +15,8 @@ const nextConfig = {
 
   // Configurar imágenes
   images: {
-    path: "/public",
+    path: "/cv/_next/image",
+    unoptimized: false,
   },
 };
 
