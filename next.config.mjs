@@ -4,9 +4,19 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  // images: {
+  //   unoptimized: true,
+  // },
+  // CRÍTICO: basePath debe coincidir con la ruta de Nginx
+  basePath: "/cv",
+
+  // Asset prefix también debe incluir /cv
+  assetPrefix: "/cv",
+
+  // Configurar imágenes
   images: {
-    unoptimized: true,
+    path: "/cv/_next/image",
   },
 };
 
-export default nextConfig
+export default nextConfig;
