@@ -15,7 +15,7 @@ const nextConfig = {
 
   // Configurar imágenes
   images: {
-    path: "/_next/image",
+    path: "/public",
   },
 };
 
